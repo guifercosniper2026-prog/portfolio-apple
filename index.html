@@ -3,49 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guillermo | Creative Designer & Writer</title>
+    <title>Guillermo | Trader & Tech Professional</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        .video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .profile-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 30px;
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 40px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #007AFF;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+        h1 { font-size: 2.5rem; font-weight: 600; margin-bottom: 10px; }
+        .tagline { font-size: 1.2rem; color: #007AFF; margin-bottom: 30px; font-weight: 300; }
+        
+        .grid-expertise {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .expert-item {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 25px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s ease;
+        }
+        .expert-item:hover { transform: translateY(-5px); border-color: #007AFF; }
+        .expert-item h3 { margin-top: 0; color: #34C759; }
+        .quote { font-style: italic; opacity: 0.5; margin-top: 60px; font-size: 1.1rem; }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #007AFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 20px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+        .btn:hover { background: #0056b3; }
+    </style>
 </head>
 <body>
-    <div class="background-overlay">
-        <div class="glow-circle"></div>
+
+    <video autoplay muted loop class="video-background">
+        <source src="video-background.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <div class="profile-card">
+            <img src="foto.png" alt="Guillermo" class="profile-img">
+            <h1>Guillermo</h1>
+            <p class="tagline">NY Session Specialist | Tech Professional</p>
+            <p>Dominando los mercados y diseñando soluciones digitales con precisión.</p>
+            <a href="https://github.com/guifercosniper2026-prog" class="btn">Mi GitHub</a>
+        </div>
+
+        <div class="grid-expertise">
+            <div class="expert-item">
+                <h3>📈 Trader</h3>
+                <p>Especialista en la sesión de NY. Enfoque en Acción del Precio, Liquidez Institucional y gestión de riesgo profesional.</p>
+            </div>
+            <div class="expert-item">
+                <h3>💻 Tech Expert</h3>
+                <p>Desarrollo de interfaces minimalistas y optimización de procesos técnicos con estándares de alta calidad.</p>
+            </div>
+        </div>
+
+        <p class="quote">"La disciplina en el gráfico es el reflejo de la disciplina en la vida."</p>
     </div>
 
-    <main class="main-card">
-        <div class="status-container">
-            <span class="status-dot"></span>
-            <span class="status-text">Available for Remote Work | World-wide</span>
-        </div>
-
-        <header>
-            <h1>Guillermo</h1>
-            <p class="tagline">Junior Frontend Developer & Content Writer</p>
-        </header>
-
-        <section class="bio">
-            <p>Transforming complex ideas into <strong>minimalist digital experiences</strong>. Specializing in clean UI design and strategic writing for global audiences.</p>
-        </section>
-
-        <div class="services-grid">
-            <div class="service-item">
-                <span class="icon">🎨</span>
-                <p>Web Design</p>
-            </div>
-            <div class="service-item">
-                <span class="icon">✍️</span>
-                <p>Writer</p>
-            </div>
-            <div class="service-item">
-                <span class="icon">🌐</span>
-                <p>Remote Ops</p>
-            </div>
-        </div>
-
-        <footer class="actions">
-            <a href="https://github.com/TU-USUARIO" class="btn-primary">View GitHub</a>
-            <a href="mailto:tu-correo@ejemplo.com" class="btn-secondary">Contact Me</a>
-        </footer>
-    </main>
 </body>
 </html>
