@@ -1,7 +1,7 @@
 # 🚀 Guillermo | Trader & Technical Professional
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/guifercosniper2026-prog/portfolio-apple/main/foto.jpg.png" width="150" style="border-radius: 50%; border: 3px solid #007AFF;">
+  <img src="https://raw.githubusercontent.com/guifercosniper2026-prog/portfolio-apple/main/foto.png" width="150" style="border-radius: 50%; border: 3px solid #007AFF;">
   <p><em>"Dominando los mercados en la Sesión de NY y diseñando el futuro digital."</em></p>
 </div>
 
