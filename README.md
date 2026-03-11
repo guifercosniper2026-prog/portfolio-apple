@@ -22,3 +22,23 @@ Soy un especialista enfocado en la ejecución de alta precisión y el diseño mi
 <p align="center">
   Trading con disciplina | Código con estilo 🍎
 </p>
+
+
+
+
+# 🚀 Guillermo | Trader & Technical Professional
+
+Bienvenido a mi portafolio profesional. Aquí combino el análisis técnico de mercados con herramientas avanzadas de programación e IA.
+
+## 📈 Análisis de Datos de Trading (Python)
+He desarrollado herramientas personalizadas para procesar la acción del precio durante la sesión de Nueva York.
+
+### Visualización de Resultados:
+![Análisis de Trading](grafico_trading.png)
+
+*Este gráfico fue generado automáticamente mediante Python y Matplotlib, procesando datos sintéticos de EUR/USD.*
+
+## 🛠️ Mis Habilidades
+* **Trading:** SMC, ICT y Technical Analysis.
+* **Tecnología:** Python para IA, Pandas para datos y desarrollo Web (HTML/CSS).
+* **Diseño:** Proyectista y Technical Writer.
