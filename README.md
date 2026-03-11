@@ -8,43 +8,19 @@
 ---
 
 ### 📈 Mi Perfil Profesional
-Soy un especialista enfocado en la ejecución de alta precisión y el diseño minimalista. Mi trabajo une la frialdad del análisis de mercados con la calidez de una interfaz bien diseñada.
+Especialista en ejecución de alta precisión y diseño minimalista. Mi trabajo une el análisis de mercados con interfaces funcionales y programación en Python.
 
-### 🛠️ Áreas de Expertise
-* **Trader:** Especialista en la sesión de Nueva York con enfoque algorítmico.
-* **Web Designer:** Diseño UI/UX inspirado en los principios de simplicidad de Apple.
-* **Technical Writer SOP:** Creación de procesos y documentación técnica estándar.
-
-### 🔗 Ver mi Portafolio en Vivo
-👉 [Haz clic aquí para ver mi web oficial](https://guifercosniper2026-prog.github.io/portfolio-apple/)
-
----
-<p align="center">
-  Trading con disciplina | Código con estilo 🍎
-</p>
-
-
-
-
-# 🚀 Guillermo | Trader & Technical Professional
-
-Bienvenido a mi portafolio profesional. Aquí combino el análisis técnico de mercados con herramientas avanzadas de programación e IA.
-
-## 📈 Análisis de Datos de Trading (Python)
+### 📊 Análisis de Datos de Trading (Python)
 He desarrollado herramientas personalizadas para procesar la acción del precio durante la sesión de Nueva York.
 
-### Visualización de Resultados:
+#### Visualización de Resultados:
 ![Análisis de Trading](grafico_trading.png)
 
-*Este gráfico fue generado automáticamente mediante Python y Matplotlib, procesando datos sintéticos de EUR/USD.*
-
-## 🛠️ Mis Habilidades
-* **Trading:** SMC, ICT y Technical Analysis.
-* **Tecnología:** Python para IA, Pandas para datos y desarrollo Web (HTML/CSS).
-* **Diseño:** Proyectista y Technical Writer.
+*Este gráfico fue generado automáticamente mediante Python y Matplotlib, procesando datos de EUR/USD.*
 
 ---
-### 📊 Análisis de Datos de Trading (Python)
-*Visualización automatizada de la acción del precio para la toma de decisiones en la sesión de Nueva York.*
 
-![Mi Gráfico de Trading](grafico_trading)
+### 🛠️ Áreas de Expertise
+* **Trader:** Sesión de Nueva York con enfoque algorítmico (SMC/ICT).
+* **Tecnología:** Python para IA, Pandas para análisis de datos y desarrollo Web.
+* **Diseño:** Proyectista y Technical Writer con enfoque en precisión técnica.
