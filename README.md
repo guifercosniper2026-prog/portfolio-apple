@@ -14,7 +14,7 @@ Especialista en ejecución de alta precisión y diseño minimalista. Mi trabajo 
 He desarrollado herramientas personalizadas para procesar la acción del precio durante la sesión de Nueva York.
 
 #### Visualización de Resultados:
-![Análisis de Trading](grafico_trading.png)
+![Análisis de Trading](https://raw.githubusercontent.com/guifercosniper2026-prog/portfolio-apple/main/grafico_trading.png)
 
 *Este gráfico fue generado automáticamente mediante Python y Matplotlib, procesando datos de EUR/USD.*
 
