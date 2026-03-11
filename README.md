@@ -42,3 +42,9 @@ He desarrollado herramientas personalizadas para procesar la acción del precio 
 * **Trading:** SMC, ICT y Technical Analysis.
 * **Tecnología:** Python para IA, Pandas para datos y desarrollo Web (HTML/CSS).
 * **Diseño:** Proyectista y Technical Writer.
+
+---
+### 📊 Análisis de Datos de Trading (Python)
+*Visualización automatizada de la acción del precio para la toma de decisiones en la sesión de Nueva York.*
+
+![Mi Gráfico de Trading](grafico_trading)
