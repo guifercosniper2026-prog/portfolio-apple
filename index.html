@@ -3,109 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guillermo | Trader & Tech Professional</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Guillermo Fernandez | Portfolio Profesional</title>
     <style>
+        /* ESTILOS BASE */
         body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #0f0f0f;
+            color: #ffffff;
             margin: 0;
-            padding: 0;
-            background-color: #000;
-            color: #fff;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            overflow-x: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
         }
-        .video-background {
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-            z-index: -1;
-            opacity: 0.4;
-        }
+        .botonera {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.boton-pro {
+    padding: 12px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.2s, background 0.3s;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.boton-pro:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.2);
+}
+
+.azul { background-color: #007AFF; color: white; }
+.verde { background-color: #34C759; color: white; }
+.rojo { background-color: #FF3B30; color: white; }
+
         .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 60px 20px;
-            text-align: center;
-        }
-        .profile-card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(20px);
-            border-radius: 30px;
+            max-width: 420px;
+            width: 100%;
+            background: #1a1a1a;
             padding: 40px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            margin-bottom: 40px;
+            border-radius: 24px;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+            border: 1px solid #333;
         }
+
+        /* FOTO DE PERFIL */
         .profile-img {
-            width: 150px;
-            height: 150px;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
-            border: 3px solid #007AFF;
+            border: 4px solid #007bff;
             margin-bottom: 20px;
             object-fit: cover;
+            box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
         }
-        h1 { font-size: 2.5rem; font-weight: 600; margin-bottom: 10px; }
-        .tagline { font-size: 1.2rem; color: #007AFF; margin-bottom: 30px; font-weight: 300; }
-        
-        .grid-expertise {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin-top: 40px;
+
+        h1 { 
+            margin: 0; 
+            letter-spacing: 2px; 
+            text-transform: uppercase;
+            font-size: 24px;
         }
-        .expert-item {
-            background: rgba(255, 255, 255, 0.03);
-            padding: 25px;
-            border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            transition: transform 0.3s ease;
+
+        .subtitle { 
+            color: #888; 
+            margin-bottom: 30px; 
+            font-size: 0.85em; 
+            letter-spacing: 1px;
         }
-        .expert-item:hover { transform: translateY(-5px); border-color: #007AFF; }
-        .expert-item h3 { margin-top: 0; color: #34C759; }
-        .quote { font-style: italic; opacity: 0.5; margin-top: 60px; font-size: 1.1rem; }
-        
+
+        /* BOTONERA */
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
         .btn {
-            display: inline-block;
-            padding: 12px 30px;
-            background: #007AFF;
+            background-color: #007bff;
             color: white;
+            padding: 16px;
+            border: none;
+            border-radius: 12px;
+            font-weight: bold;
             text-decoration: none;
-            border-radius: 25px;
-            margin-top: 20px;
-            font-weight: 500;
-            transition: 0.3s;
+            display: block;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            text-transform: uppercase;
+            cursor: pointer;
         }
-        .btn:hover { background: #0056b3; }
+
+        .btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+        }
+
+        /* VIDEO */
+        .video-wrapper {
+            margin-top: 30px;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid #444;
+            background: #000;
+        }
+
+        video {
+            display: block;
+        }
     </style>
 </head>
 <body>
 
-    <video autoplay muted loop class="video-background">
-        <source src="video-background.mp4" type="video/mp4">
-    </video>
-
     <div class="container">
-        <div class="profile-card">
-            <img src="foto.png" alt="Guillermo" class="profile-img">
-            <h1>Guillermo</h1>
-            <p class="tagline">NY Session Specialist | Tech Professional</p>
-            <p>Dominando los mercados y diseñando soluciones digitales con precisión.</p>
-            <a href="https://github.com/guifercosniper2026-prog" class="btn">Mi GitHub</a>
-        </div>
+        <img src="foto.png" alt="Guillermo" class="profile-img">
+        
+        <h1>GUILLERMO</h1>
+ <p class="subtitle">Dominando los mercados y diseñando soluciones digitales con precisión.</p>
 
-        <div class="grid-expertise">
-            <div class="expert-item">
-                <h3>📈 Trader</h3>
-                <p>Especialista en la sesión de NY. Enfoque en Acción del Precio, Liquidez Institucional y gestión de riesgo profesional.</p>
-            </div>
-            <div class="expert-item">
-                <h3>💻 Tech Expert</h3>
-                <p>Desarrollo de interfaces minimalistas y optimización de procesos técnicos con estándares de alta calidad.</p>
-            </div>
-        </div>
+<div class="botonera">
+    <a href="https://github.com/guifercosniper2026-prog/portfolio-apple" class="boton-pro azul">💻 Código Python</a>
+    <a href="reporte_profesional_trading.csv" download class="boton-pro verde">📊 Data EUR/USD</a>
+    <a href="SOP-Guillermo-ISO.pdf" target="_blank" class="boton-pro rojo">📕 Manual SOP</a>
+</div>
 
-        <p class="quote">"La disciplina en el gráfico es el reflejo de la disciplina en la vida."</p>
+<div align="center" style="margin-top: 30px;">
+    <img src="grafico_trading.png" alt="Análisis de Trading" style="width:100%; max-width:600px; border-radius: 15px; border: 1px solid #444;">
+</div>
+            <video width="100%" controls>
+                <source src="operativa-sniper.mp4" type="video/mp4">
+                Tu navegador no soporta el video local.
+            </video>
+        </div>
     </div>
 
 </body>
